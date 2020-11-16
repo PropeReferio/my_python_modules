@@ -1,4 +1,5 @@
 from functools import wraps
+# this import allows for decorators to wrap each other
 
 def timer(orig_func):
 	import time
